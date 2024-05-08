@@ -1,0 +1,1 @@
+cmd = macs2Output/SRR945977/SOX2.SRR945977.chr18_peaks.narrowPeak references/genome.fa homerOutput/SOX2.SRR945977 -p 8

@@ -1,0 +1,104 @@
+INFO  @ Wed, 08 May 2024 18:09:58: 
+# Command line: callpeak -t bowtieOutput/SRR945975/SRR945975.chr18.bed -c bowtieOutput/SRR945976/SRR945976.chr18.bed -g hs -n SOX2.SRR945976.chr18 --outdir macs2Output/SRR945976
+# ARGUMENTS LIST:
+# name = SOX2.SRR945976.chr18
+# format = AUTO
+# ChIP-seq file = ['bowtieOutput/SRR945975/SRR945975.chr18.bed']
+# control file = ['bowtieOutput/SRR945976/SRR945976.chr18.bed']
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Wed, 08 May 2024 18:09:58: #1 read tag files... 
+INFO  @ Wed, 08 May 2024 18:09:58: #1 read treatment tags... 
+INFO  @ Wed, 08 May 2024 18:09:58: Detected format is: BED 
+INFO  @ Wed, 08 May 2024 18:09:58:  1000000 
+INFO  @ Wed, 08 May 2024 18:09:59:  2000000 
+INFO  @ Wed, 08 May 2024 18:09:59:  3000000 
+INFO  @ Wed, 08 May 2024 18:10:00:  4000000 
+INFO  @ Wed, 08 May 2024 18:10:01:  5000000 
+INFO  @ Wed, 08 May 2024 18:10:01:  6000000 
+INFO  @ Wed, 08 May 2024 18:10:02:  7000000 
+INFO  @ Wed, 08 May 2024 18:10:02:  8000000 
+INFO  @ Wed, 08 May 2024 18:10:03:  9000000 
+INFO  @ Wed, 08 May 2024 18:10:04:  10000000 
+INFO  @ Wed, 08 May 2024 18:10:04:  11000000 
+INFO  @ Wed, 08 May 2024 18:10:05:  12000000 
+INFO  @ Wed, 08 May 2024 18:10:06:  13000000 
+INFO  @ Wed, 08 May 2024 18:10:06:  14000000 
+INFO  @ Wed, 08 May 2024 18:10:07:  15000000 
+INFO  @ Wed, 08 May 2024 18:10:07:  16000000 
+INFO  @ Wed, 08 May 2024 18:10:08:  17000000 
+INFO  @ Wed, 08 May 2024 18:10:09:  18000000 
+INFO  @ Wed, 08 May 2024 18:10:09:  19000000 
+INFO  @ Wed, 08 May 2024 18:10:10:  20000000 
+INFO  @ Wed, 08 May 2024 18:10:11:  21000000 
+INFO  @ Wed, 08 May 2024 18:10:12:  22000000 
+INFO  @ Wed, 08 May 2024 18:10:12:  23000000 
+INFO  @ Wed, 08 May 2024 18:10:13:  24000000 
+INFO  @ Wed, 08 May 2024 18:10:14:  25000000 
+INFO  @ Wed, 08 May 2024 18:10:15: #1.2 read input tags... 
+INFO  @ Wed, 08 May 2024 18:10:15: Detected format is: BED 
+INFO  @ Wed, 08 May 2024 18:10:16:  1000000 
+INFO  @ Wed, 08 May 2024 18:10:17:  2000000 
+INFO  @ Wed, 08 May 2024 18:10:17:  3000000 
+INFO  @ Wed, 08 May 2024 18:10:18:  4000000 
+INFO  @ Wed, 08 May 2024 18:10:19:  5000000 
+INFO  @ Wed, 08 May 2024 18:10:20:  6000000 
+INFO  @ Wed, 08 May 2024 18:10:20:  7000000 
+INFO  @ Wed, 08 May 2024 18:10:21:  8000000 
+INFO  @ Wed, 08 May 2024 18:10:22:  9000000 
+INFO  @ Wed, 08 May 2024 18:10:23:  10000000 
+INFO  @ Wed, 08 May 2024 18:10:24:  11000000 
+INFO  @ Wed, 08 May 2024 18:10:24:  12000000 
+INFO  @ Wed, 08 May 2024 18:10:25:  13000000 
+INFO  @ Wed, 08 May 2024 18:10:26:  14000000 
+INFO  @ Wed, 08 May 2024 18:10:27:  15000000 
+INFO  @ Wed, 08 May 2024 18:10:27:  16000000 
+INFO  @ Wed, 08 May 2024 18:10:28:  17000000 
+INFO  @ Wed, 08 May 2024 18:10:29:  18000000 
+INFO  @ Wed, 08 May 2024 18:10:30:  19000000 
+INFO  @ Wed, 08 May 2024 18:10:30:  20000000 
+INFO  @ Wed, 08 May 2024 18:10:31:  21000000 
+INFO  @ Wed, 08 May 2024 18:10:32:  22000000 
+INFO  @ Wed, 08 May 2024 18:10:33:  23000000 
+INFO  @ Wed, 08 May 2024 18:10:33:  24000000 
+INFO  @ Wed, 08 May 2024 18:10:34:  25000000 
+INFO  @ Wed, 08 May 2024 18:10:35:  26000000 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 tag size is determined as 36 bps 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 tag size = 36.0 
+INFO  @ Wed, 08 May 2024 18:10:36: #1  total tags in treatment: 25975958 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 user defined the maximum tags... 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Wed, 08 May 2024 18:10:36: #1  tags after filtering in treatment: 24500599 
+INFO  @ Wed, 08 May 2024 18:10:36: #1  Redundant rate of treatment: 0.06 
+INFO  @ Wed, 08 May 2024 18:10:36: #1  total tags in control: 26221848 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 user defined the maximum tags... 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Wed, 08 May 2024 18:10:36: #1  tags after filtering in control: 21166508 
+INFO  @ Wed, 08 May 2024 18:10:36: #1  Redundant rate of control: 0.19 
+INFO  @ Wed, 08 May 2024 18:10:36: #1 finished! 
+INFO  @ Wed, 08 May 2024 18:10:36: #2 Build Peak Model... 
+INFO  @ Wed, 08 May 2024 18:10:36: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Wed, 08 May 2024 18:10:39: #2 number of paired peaks: 87199 
+INFO  @ Wed, 08 May 2024 18:10:39: start model_add_line... 
+INFO  @ Wed, 08 May 2024 18:10:39: start X-correlation... 
+INFO  @ Wed, 08 May 2024 18:10:39: end of X-cor 
+INFO  @ Wed, 08 May 2024 18:10:39: #2 finished! 
+INFO  @ Wed, 08 May 2024 18:10:39: #2 predicted fragment length is 85 bps 
+INFO  @ Wed, 08 May 2024 18:10:39: #2 alternative fragment length(s) may be 85 bps 
+INFO  @ Wed, 08 May 2024 18:10:39: #2.2 Generate R script for model : macs2Output/SRR945976/SOX2.SRR945976.chr18_model.r 
+INFO  @ Wed, 08 May 2024 18:10:39: #3 Call peaks... 
+INFO  @ Wed, 08 May 2024 18:10:39: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 08 May 2024 18:11:36: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 08 May 2024 18:12:06: #4 Write output xls file... macs2Output/SRR945976/SOX2.SRR945976.chr18_peaks.xls 
+INFO  @ Wed, 08 May 2024 18:12:06: #4 Write peak in narrowPeak format file... macs2Output/SRR945976/SOX2.SRR945976.chr18_peaks.narrowPeak 
+INFO  @ Wed, 08 May 2024 18:12:06: #4 Write summits bed file... macs2Output/SRR945976/SOX2.SRR945976.chr18_summits.bed 
+INFO  @ Wed, 08 May 2024 18:12:06: Done! 
